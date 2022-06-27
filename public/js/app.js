@@ -13,7 +13,7 @@ wheaterForm.addEventListener('submit', (e) => {
   message2.textContent = '';
   message3.textContent = '';
   img1.src = '';
-  fetch(`http://localhost:3000/weather?adress=${location}`).then((res) => {
+  fetch(`/weather?adress=${location}`).then((res) => {
     res.json().then((data) => {
       if (data.error) {
         message1.textContent = data.error;
