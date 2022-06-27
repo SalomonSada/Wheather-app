@@ -1,0 +1,76 @@
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 650px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888;
+    border-top: 2.5px #eee solid;
+    margin-top: 50px;
+    padding: 16px 0;
+}
+
+header { 
+    margin: 16px 0 48px 0;
+}
+
+header a {
+    color: #888;
+    margin-right: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgba(106, 5, 44, 0.8);
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+.sal-cello {
+    width: 200px;
+    height: auto;
+    border-radius: 2.5%;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: rgba(106, 5, 44, 0.8);
+    color: white;
+    padding: 8px;
+    border-radius: 5%;
+}
+
+.wheater-description {
+    display: flex;
+    margin-top: 0;
+    padding: 0;
+}
+
+.message-3 {
+    justify-content: flex-start;
+}
+
+.iconWheater {
+    justify-content: center;
+    padding-left: 16px;
+    width: auto;
+    height: 40px;
+    border-radius: 15%;
+}
